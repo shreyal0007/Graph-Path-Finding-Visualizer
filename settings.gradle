@@ -1,0 +1,14 @@
+rootProject.name = 'PathFinding'
+
+buildscript {
+    repositories {
+        gradlePluginPortal()
+
+        maven {
+            url "https://sandec.jfrog.io/artifactory/repo"
+        }
+    }
+    dependencies {
+        classpath "one.jpro:jpro-gradle-plugin:2024.3.0"
+    }
+}
